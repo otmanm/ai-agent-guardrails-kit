@@ -1,5 +1,8 @@
 # AI Agent Guardrails Kit
 
+[![tests](https://github.com/otmanm/ai-agent-guardrails-kit/actions/workflows/tests.yml/badge.svg)](https://github.com/otmanm/ai-agent-guardrails-kit/actions/workflows/tests.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 A background AI agent deleted my files. Not a bug. The designed behavior of a powerful tool meeting a permission I had already granted. I wrote it up in public, a developer in Japan showed me the missing layer, and this repository is the honest, reproducible backing for that story.
 
 Read the reader facing article first: **https://systemsdetective.com/blog/the-lab-shipped-the-gap/**
