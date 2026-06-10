@@ -10,5 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Run guard hook test suite
+      - name: Guard hook unit tests
         run: bash hooks/tests/run_tests.sh
+      - name: Attack matrix (five abuse paths vs guards)
+        run: bash tests/attack-matrix/run-matrix.sh

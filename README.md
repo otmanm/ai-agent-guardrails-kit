@@ -13,7 +13,7 @@ The original public bug report: **https://github.com/anthropics/claude-code/issu
 
 This matters, so it is the first thing you see.
 
-- **Ran and proved (reproducible):** the incident itself, and the two guard hooks in [`hooks/`](hooks/), which pass an 18 case test suite you can run yourself in one command.
+- **Ran and proved (reproducible):** the incident itself; the two guard hooks in [`hooks/`](hooks/), which pass an 18 case test suite; and the [attack matrix](tests/attack-matrix/), which runs concrete payloads for all five abuse paths against the guards and records what is blocked and what is not, from real runs. Both run in one command and in CI.
 - **Assessed from sources (not benchmarked):** the comparison of the other free and open tools in [`tool-comparison.md`](tool-comparison.md). It is built from each tool's own documentation, source, and public issues, not from a benchmark I ran against them.
 - **Planned next:** a reproducible cross-tool attack harness that records, per tool, which of the five abuse paths it catches and which it misses. Until that ships, the comparison is clearly labeled as sourced.
 
@@ -27,6 +27,7 @@ The full ledger is in [`VERIFICATION.md`](VERIFICATION.md). No claim here asks y
 | [`abuse-paths.md`](abuse-paths.md) | The five ways an agent like this can be abused, with real precedents (red-team analysis). |
 | [`tool-comparison.md`](tool-comparison.md) | A sourced comparison of the open and free dynamic-workflow tools and their built-in guardrails. |
 | [`hooks/`](hooks/) | Two working PreToolUse guard hooks, an installer, and the test suite. The part that was actually run. |
+| [`tests/attack-matrix/`](tests/attack-matrix/) | A reproducible matrix that runs each abuse path against each guard and records BLOCKED or ALLOWED. The measured "what it catches and what it misses." |
 | [`VERIFICATION.md`](VERIFICATION.md) | The confidence ledger: verified vs sourced vs open. |
 
 ## Quickstart
