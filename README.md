@@ -28,6 +28,7 @@ The full ledger is in [`VERIFICATION.md`](VERIFICATION.md). No claim here asks y
 | [`tool-comparison.md`](tool-comparison.md) | A sourced comparison of the open and free dynamic-workflow tools and their built-in guardrails. |
 | [`hooks/`](hooks/) | Two working PreToolUse guard hooks, an installer, and the test suite. The part that was actually run. |
 | [`tests/attack-matrix/`](tests/attack-matrix/) | A reproducible matrix that runs each abuse path against each guard and records BLOCKED or ALLOWED. The measured "what it catches and what it misses." |
+| [`benchmark/`](benchmark/) | Phase 0 cross-framework benchmark: the five attacks as fixtures, a measured `node:vm` isolation test, and a matrix that labels every cell measured, sourced, inferred, or not-runnable. No paid LLM or Docker required. |
 | [`VERIFICATION.md`](VERIFICATION.md) | The confidence ledger: verified vs sourced vs open. |
 
 ## Quickstart
