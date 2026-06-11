@@ -51,7 +51,7 @@ A command guard is one layer, not a wall. It can be slipped by a sufficiently ob
 
 ## Credit
 
-Yuru Kusa, and his project [cc-safe-setup](https://github.com/yurukusa/cc-safe-setup). A stranger who got the design right, and gave it away.
+Yuru Kusa, and his project [cc-safe-setup](https://github.com/yurukusa/cc-safe-setup). A Japanese builder who got the design right, and gave it away.
 
 ## License
 
