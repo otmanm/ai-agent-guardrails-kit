@@ -14,3 +14,5 @@ jobs:
         run: bash hooks/tests/run_tests.sh
       - name: Attack matrix (five abuse paths vs guards)
         run: bash tests/attack-matrix/run-matrix.sh
+      - name: Phase 0 framework benchmark (local, no infra)
+        run: bash benchmark/run-local.sh
